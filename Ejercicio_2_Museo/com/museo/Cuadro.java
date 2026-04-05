@@ -9,4 +9,8 @@ public class Cuadro extends ObraDeArte {
         this.tecnica = tecnica;
         this.estilo = estilo;
     }
+
+    public void mostrarDetalles() {
+        System.out.println("Cuadro: " + titulo + " | Técnica: " + tecnica + " | Estilo: " + estilo);
+    }
 }

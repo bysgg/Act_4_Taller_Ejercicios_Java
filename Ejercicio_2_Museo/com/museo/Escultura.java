@@ -9,4 +9,8 @@ public class Escultura extends ObraDeArte {
         this.material = material;
         this.estilo = estilo;
     }
+
+    public void mostrarDetalles() {
+        System.out.println("Escultura: " + titulo + " | Material: " + material + " | Estilo: " + estilo);
+    }
 }

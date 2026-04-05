@@ -11,10 +11,13 @@ public class Restauracion {
         this.fechaInicio = inicio;
     }
 
-    public void finalizar(LocalDate fin) { this.fechaFin = fin; }
+    public void finalizar(LocalDate fin) {
+        this.fechaFin = fin;
+    }
 
     @Override
     public String toString() {
-        return String.format("Tipo: %s | Inicio: %s | Fin: %s", tipo, fechaInicio, fechaFin);
+        return String.format("   > [%s] Tipo: %s | Fin: %s", 
+            fechaInicio, tipo, (fechaFin != null ? fechaFin : "En curso..."));
     }
 }

@@ -20,4 +20,8 @@ public class GestionMuseo {
         System.out.println("[SISTEMA] Ejecutando chequeo automático de 5 años...");
         // Aquí iría la lógica de fechas
     }
+
+    public List<ObraDeArte> getInventario() {
+    return inventario;
+}
 }
