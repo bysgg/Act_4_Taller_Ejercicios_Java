@@ -10,7 +10,6 @@ public abstract class ObraDeArte {
     protected String periodo;
     protected double valor;
     protected String estado;
-    // 1. Verifica que esta lista exista
     protected List<Restauracion> historialRestauraciones = new ArrayList<>();
 
     public ObraDeArte(String titulo, String autor, String periodo, double valor) {
